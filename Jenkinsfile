@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
                 sh './gradlew init'
-                sh './gradlew build'
+                sh 'sudo ./gradlew build'
             }
         }
     }
