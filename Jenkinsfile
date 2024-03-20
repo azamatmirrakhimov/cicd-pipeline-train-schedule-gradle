@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
                 sh './gradlew init'
-                sh 'sudo ./gradlew build'
+                sh './gradlew npm_start'
             }
         }
     }
