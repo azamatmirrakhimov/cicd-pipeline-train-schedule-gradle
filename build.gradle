@@ -3,6 +3,7 @@ plugins {
 }
 
 node {
+  distBaseUrl = 'https://nodejs.org/dist'
   version    = '9.11.2'
   download   = true
 }
